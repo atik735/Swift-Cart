@@ -194,7 +194,7 @@ const loadCategories = async () => {
   });
 };
 
-
+ 
 // Display Products
 const displayProducts = (products) => {
   productContainer.innerHTML = "";
@@ -213,6 +213,7 @@ const displayProducts = (products) => {
         </div>
 
         <!-- Category + Rating -->
+
         <div class="flex items-center justify-between mt-4">
           <span class="text-xs bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full font-medium capitalize">
             ${product.category}
@@ -225,12 +226,14 @@ const displayProducts = (products) => {
           </div>
         </div>
 
-        <!-- Title -->
+        <!-- product Title -->
+
         <h3 class="mt-3 font-semibold text-gray-800 text-sm line-clamp-2">
           ${product.title.length > 30 ? product.title.slice(0, 30) + "..." : product.title}
         </h3>
 
-        <!-- Price -->
+        <!--Product Price -->
+
         <p class="mt-2 text-lg font-bold text-gray-900">
           $${product.price}
         </p>
