@@ -194,7 +194,6 @@ const loadCategories = async () => {
   });
 };
 
- 
 // Display Products
 const displayProducts = (products) => {
   productContainer.innerHTML = "";
