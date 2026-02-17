@@ -151,7 +151,6 @@ const displayTrend = (trends) => {
 
 Trendingproducts();
 
-
 // Category showing
 
 const loadCategories = async () => {
